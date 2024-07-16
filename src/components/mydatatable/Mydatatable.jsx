@@ -26,7 +26,7 @@ const Mydatatable = ({ columns }) => {
               <span
                 className="deleteButton"
                 onClick={() => handleDelete(params.row.id)}
-                data-testid="delete"
+                data-testid="Delete"
               >
                 Delete
               </span>
